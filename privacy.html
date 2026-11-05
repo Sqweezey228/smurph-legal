@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMURPH — Privacy Policy</title>
+<style>
+:root{color-scheme:light dark}body{font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:850px;margin:40px auto;padding:0 20px}h1,h2{line-height:1.2}a{color:#668cff}.muted{opacity:.72}main{padding-bottom:40px}
+</style>
+</head>
+<body>
+<main>
+<p class="muted">SMURPH Discord Bot</p>
+<h1>Privacy Policy</h1>
+<p><strong>Effective date:</strong> November 5, 2026</p>
+<p>This Privacy Policy explains what information the SMURPH Discord bot (“SMURPH” or the “Bot”) processes when used on a Discord server.</p>
+
+<h2>1. Information the Bot processes</h2>
+<p>To provide event and participant-management features, the Bot stores the following information in its local SQLite database:</p>
+<ul>
+<li>Discord IDs for events, servers (guilds), channels, messages, event creators, and participants;</li>
+<li>event title, scheduled time, participant limit, event status, and creation timestamp;</li>
+<li>participant registration timestamp and event-list settings (including priority, emoji, and manual-list flags).</li>
+</ul>
+<p>The Bot also accesses Discord server/member and voice-state information needed to check roles, identify participants, and perform requested voice-channel actions. The source code enables Discord server and member intents.</p>
+
+<h2>2. How information is used</h2>
+<p>The information is used to create and update event posts, maintain participant and reserve lists, check role-based permissions and priorities, manage sign-ups, and support event notifications and voice-channel invitations.</p>
+
+<h2>3. Direct messages and invitations</h2>
+<p>When an authorized user triggers a relevant feature, the Bot may send a direct message to an event participant who is not currently in a voice channel. The message may include event details and a Discord invitation link to a voice channel. The Bot may also move members who are already connected to a voice channel when the relevant feature is used. The Bot is not designed to send advertising.</p>
+
+<h2>4. Storage and retention</h2>
+<p>Event and participant records are stored in an SQLite database file maintained by the Bot operator. The Bot’s code does not set an automatic expiry period for event records. Records may remain in the database until they are changed or removed by the Bot’s operator or through the Bot’s functionality. The operator should protect the database and delete records that are no longer needed.</p>
+
+<h2>5. Sharing and service providers</h2>
+<p>The Bot uses Discord to operate and communicate with Discord servers and users. Information necessary to perform Bot actions is transmitted to Discord through the Discord API and is subject to Discord’s own privacy practices and terms. The reviewed Bot source code does not show a separate analytics, advertising, or third-party data-transfer integration. This statement applies to the reviewed source code and may change if the Bot is modified or deployed with additional services.</p>
+
+<h2>6. Security</h2>
+<p>The operator should restrict access to the Bot’s database and configuration, keep bot credentials secret, and use appropriate security measures for the hosting environment. No method of storage or transmission is completely secure.</p>
+
+<h2>7. Your choices and requests</h2>
+<p>You can choose not to interact with the Bot. If you want to ask about information associated with your Discord account, or request correction or deletion of a record, contact the Bot operator. The operator may need your Discord user ID or enough information to identify the relevant event record. Server administrators may also control whether the Bot remains installed and which features are available.</p>
+
+<h2>8. Children</h2>
+<p>The Bot is intended for use by people who are permitted to use Discord under Discord’s applicable age requirements. The Bot operator does not intentionally request sensitive personal information.</p>
+
+<h2>9. Changes to this Policy</h2>
+<p>This Policy may be updated if the Bot’s features, storage, or integrations change. The current version will be published at this page.</p>
+
+<h2>10. Contact</h2>
+<p>For privacy questions or data requests, contact the Bot operator on Discord: <strong>fifaloxfift</strong>.</p>
+<p class="muted">This policy describes the reviewed SMURPH Bot source code. If the code, database, hosting, or connected services change, this page should be reviewed and updated.</p>
+</main>
+</body>
+</html>
